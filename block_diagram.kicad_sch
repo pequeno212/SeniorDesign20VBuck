@@ -30,28 +30,10 @@
 		(uuid "2f9be6f5-cf7a-4899-890c-a1bedfb7eb80")
 	)
 	(junction
-		(at 115.57 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6396a15f-36c3-407f-ba73-7f26b0ec1e10")
-	)
-	(junction
 		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8377344a-4c52-4782-bfc7-c96b47d09d93")
-	)
-	(junction
-		(at 113.03 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "850a9bbe-722b-4317-9f05-a5ea14890acc")
-	)
-	(junction
-		(at 118.11 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a27ba254-b1e0-4cb8-92f1-3a65b6f9afb1")
 	)
 	(wire
 		(pts
@@ -125,16 +107,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 138.43) (xy 102.87 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173d3050-cabc-4ee1-a187-068952b11cfd")
-	)
-	(wire
-		(pts
 			(xy 175.26 19.05) (xy 116.84 19.05)
 		)
 		(stroke
@@ -142,16 +114,6 @@
 			(type default)
 		)
 		(uuid "1d4b809d-5345-4288-9585-7103999448ba")
-	)
-	(wire
-		(pts
-			(xy 105.41 135.89) (xy 87.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2110c279-ef78-4d9a-ab7d-3c2f32829dad")
 	)
 	(wire
 		(pts
@@ -182,6 +144,16 @@
 			(type default)
 		)
 		(uuid "278c4374-8d3b-4070-81b2-5b478c4bfce7")
+	)
+	(wire
+		(pts
+			(xy 113.03 124.46) (xy 125.73 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd457bb-690b-437e-8b52-ffa2617c7db8")
 	)
 	(wire
 		(pts
@@ -225,16 +197,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 132.08) (xy 125.73 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362e9bf4-5a87-4cac-ac45-36ca4ce43763")
-	)
-	(wire
-		(pts
 			(xy 87.63 62.23) (xy 125.73 62.23)
 		)
 		(stroke
@@ -242,6 +204,16 @@
 			(type default)
 		)
 		(uuid "4269c30b-7da5-46c0-8d24-be0739218347")
+	)
+	(wire
+		(pts
+			(xy 118.11 129.54) (xy 125.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4769e701-2ace-4459-826e-1958e35dbd52")
 	)
 	(wire
 		(pts
@@ -272,26 +244,6 @@
 			(type default)
 		)
 		(uuid "4bf04099-4717-495a-8ec9-57360e822892")
-	)
-	(wire
-		(pts
-			(xy 87.63 124.46) (xy 125.73 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f0b5914-6a66-483d-8df1-ac882ebb7ce9")
-	)
-	(wire
-		(pts
-			(xy 105.41 158.75) (xy 105.41 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd59455-6cd5-402d-b8cd-da624119f824")
 	)
 	(wire
 		(pts
@@ -395,16 +347,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 129.54) (xy 179.07 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c8c651-42ca-4afa-a2bd-b6bc9954518b")
-	)
-	(wire
-		(pts
 			(xy 189.23 123.19) (xy 173.99 123.19)
 		)
 		(stroke
@@ -425,16 +367,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 127) (xy 125.73 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b7f224-8310-441e-9669-16ac943877aa")
-	)
-	(wire
-		(pts
 			(xy 163.83 76.2) (xy 189.23 76.2)
 		)
 		(stroke
@@ -442,16 +374,6 @@
 			(type default)
 		)
 		(uuid "78dbd62d-b724-4a7c-b762-73b9815a528e")
-	)
-	(wire
-		(pts
-			(xy 102.87 161.29) (xy 181.61 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85573ecf-563d-410d-96be-f9b05ee6f7bd")
 	)
 	(wire
 		(pts
@@ -472,16 +394,6 @@
 			(type default)
 		)
 		(uuid "9497223e-2a8e-45e6-b173-6781582477e5")
-	)
-	(wire
-		(pts
-			(xy 181.61 132.08) (xy 189.23 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a02e6b-2a71-4b30-b432-a23eb3cdfd42")
 	)
 	(wire
 		(pts
@@ -512,16 +424,6 @@
 			(type default)
 		)
 		(uuid "9e47f9b6-75b5-4ca0-9192-6a7c22eb2b1c")
-	)
-	(wire
-		(pts
-			(xy 87.63 129.54) (xy 125.73 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38fb6d2-7c76-4591-a688-164c8a3b5837")
 	)
 	(wire
 		(pts
@@ -575,16 +477,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 161.29) (xy 181.61 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb272934-6f25-4be7-ad01-21ea2ab91d4d")
-	)
-	(wire
-		(pts
 			(xy 163.83 73.66) (xy 189.23 73.66)
 		)
 		(stroke
@@ -592,16 +484,6 @@
 			(type default)
 		)
 		(uuid "be81014a-32e7-40d3-b514-d33808739dba")
-	)
-	(wire
-		(pts
-			(xy 179.07 158.75) (xy 105.41 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0cb7a4f-6efe-4e4d-8e39-4acfcc43c697")
 	)
 	(wire
 		(pts
@@ -635,13 +517,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 138.43) (xy 102.87 138.43)
+			(xy 115.57 127) (xy 125.73 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccd52a6b-4294-4702-bf6b-83974cba942e")
+		(uuid "c94882da-f72f-4478-8b77-774580f821c5")
 	)
 	(wire
 		(pts
@@ -782,16 +664,6 @@
 			(type default)
 		)
 		(uuid "f0e0adac-a34c-42f0-82c8-d16d116ce624")
-	)
-	(wire
-		(pts
-			(xy 179.07 129.54) (xy 179.07 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f12c783b-a938-411c-817f-53d9a06b48ec")
 	)
 	(wire
 		(pts
@@ -1431,111 +1303,6 @@
 		)
 	)
 	(sheet
-		(at 62.23 123.19)
-		(size 25.4 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "8dbcbcde-a963-4a54-aef5-5a4212c7899c")
-		(property "Sheetname" "ESP32C3"
-			(at 62.23 122.4784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Wireless.kicad_sch"
-			(at 62.23 141.478 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ESP32_USB_D_N" input
-			(at 87.63 135.89 0)
-			(uuid "c6c412f3-848e-488e-b406-6f19af511af7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ESP32_USB_D_P" input
-			(at 87.63 138.43 0)
-			(uuid "6a99e825-de0f-43a2-bcb3-169c7ae93041")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_MISO" input
-			(at 87.63 124.46 0)
-			(uuid "fe7d82bd-e8ca-4bf4-b830-13c4f2b435a1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_MOSI" input
-			(at 87.63 127 0)
-			(uuid "5dc0a381-16e9-4a73-9f13-2ad29b3b8352")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI1_SCLK" input
-			(at 87.63 129.54 0)
-			(uuid "d2595eac-a074-4d4a-bb94-fca11a114338")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SPI_CS_ESP" input
-			(at 87.63 132.08 0)
-			(uuid "e56d9f57-89a0-4554-8ef3-1756ad1ae17b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 62.23 25.4)
 		(size 25.4 16.51)
 		(exclude_from_sim no)
@@ -1656,26 +1423,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "ESP32_USB_D_N" input
-			(at 189.23 129.54 180)
-			(uuid "32351576-2f56-4fa5-ab43-bac41935be47")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ESP32_USB_D_P" input
-			(at 189.23 132.08 180)
-			(uuid "961b59ce-0b0a-48d9-98a2-2850b1271a7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "FAN_PWM" input
