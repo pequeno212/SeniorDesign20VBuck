@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -60,17 +60,77 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2032,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.508,
+          "width": 0.2032
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|165139500|118409500|1ce5739b-dad1-4629-a668-aab7de0e6528|93e2214c-c577-4cac-8b45-97bc56d7bd0b",
+          ""
+        ],
+        [
+          "clearance|165139500|119834500|678dc4da-d295-403a-9d00-da549ed31a92|c1b97402-c5fe-4b8c-9b35-18a7bd6be327",
+          ""
+        ],
+        [
+          "clearance|165314500|119834500|678dc4da-d295-403a-9d00-da549ed31a92|1ef9524b-6dd7-44af-b801-c5edf4323023",
+          ""
+        ],
+        [
+          "clearance|165639500|118409500|e0bcff00-440e-4d9e-885a-aca0a8606dd1|1ce5739b-dad1-4629-a668-aab7de0e6528",
+          ""
+        ],
+        [
+          "hole_clearance|135260400|130566200|5e2a55e0-a170-4548-8e2e-1542dd792824|164dd253-8ce7-4856-885b-af6432841c04",
+          ""
+        ],
+        [
+          "hole_clearance|135260400|130566200|9c7fe3fc-e910-4cde-9c66-0cca352666b4|164dd253-8ce7-4856-885b-af6432841c04",
+          ""
+        ],
+        [
+          "hole_clearance|141360400|130566200|ae716c6b-bc6b-4937-8576-626ded349972|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
+          ""
+        ],
+        [
+          "hole_clearance|141360400|130566200|ff7682e1-3853-49fb-ad8d-59e9b8e20173|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
+          ""
+        ],
+        [
+          "hole_clearance|74404600|130395000|6d9a094e-0c78-47df-82a4-ca0dcf9b6012|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
+          ""
+        ],
+        [
+          "hole_clearance|74404600|130395000|b4853df9-1bd8-46c4-82c9-0e9edf8523f2|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
+          ""
+        ],
+        [
+          "hole_clearance|80504600|130395000|06711c73-e9a0-4836-aeff-04d6886e2169|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
+          ""
+        ],
+        [
+          "hole_clearance|80504600|130395000|b404b5ff-9cbd-4fb5-9e7c-f29dee23a629|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -203,7 +263,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.254,
+        0.37084,
+        0.508,
+        1.27
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +296,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3048
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -240,7 +315,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -260,7 +335,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "duplicate_reference|2235200|977900|40d485b5-a193-41f4-87a9-6e46dbc910ab|a30bfb66-aa0d-441c-9644-0b15b48cef9d|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -488,7 +568,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "20Vbuck.kicad_pro",
+    "filename": "SeniorDesign_PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -506,7 +586,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.254,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -611,12 +691,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -656,18 +766,42 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "20Vbuck.kicad_sch",
-        "name": "Root",
-        "uuid": "ad95d452-e297-4cfb-98d6-b46dd7814fa0"
+        "filename": "block_diagram.kicad_sch",
+        "name": "Block Diagram",
+        "uuid": "88e1ced0-9576-4565-ab29-f74bf51ccbda"
       }
     ],
-    "used_designators": "U1,R1",
+    "used_designators": "U1-16,Y1-2,#FLG1-7,R1-85,J1-21,J24,D1-10,L1-4,AE1,#PWR1-155,C1-55,Q1-5,P1-3,SW1-7,F1,TSAL1-3",
     "variants": []
   },
   "sheets": [
     [
-      "ad95d452-e297-4cfb-98d6-b46dd7814fa0",
-      "Root"
+      "31f163eb-679a-41ad-bd95-ba79c79ee532",
+      "Sensors"
+    ],
+    [
+      "88e1ced0-9576-4565-ab29-f74bf51ccbda",
+      "Block Diagram"
+    ],
+    [
+      "27166b61-357c-42c1-9fa2-b71231f12fe0",
+      "STM32G4"
+    ],
+    [
+      "f9ef2c8a-940c-4bd3-9d49-5676059e2f63",
+      "Analog"
+    ],
+    [
+      "ab582717-e2bf-4603-b10c-c3fa663dfded",
+      "Power"
+    ],
+    [
+      "c56479bc-1a8a-4e8e-8fbe-073cb4f795b5",
+      "Peripherials"
+    ],
+    [
+      "8dbcbcde-a963-4a54-aef5-5a4212c7899c",
+      "ESP32C3"
     ]
   ],
   "text_variables": {},
